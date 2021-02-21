@@ -38,7 +38,7 @@ class _ExhibitionBottomSheetState extends State<ExhibitionBottomSheet>
   void initState() {
     super.initState();
     _controller = AnimationController(
-        vsync: this, duration: Duration(milliseconds: 3600));
+        duration: Duration(milliseconds: 3600), vsync: this);
     focusNode = FocusNode();
     focusNodePassword = FocusNode();
   }
